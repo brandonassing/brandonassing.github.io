@@ -34,7 +34,7 @@ nav {
 #about {
     z-index: 5;
     margin-top: -10px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     background-color: #A7D2CB;
     background-image: url('img/background.png');
     background-repeat: no-repeat;
@@ -64,10 +64,12 @@ p.skills-text {
 }
 
 img.about-img {
-    width: 100%;
+    float: right;
+    margin-top: 35px;
+    width: 75%;
 }
 
-img.about-img.about-img-col {
+img.about-img-col {
     width: 80px;
 }
 
