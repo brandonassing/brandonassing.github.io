@@ -2,14 +2,7 @@
 COLORS
 */
 
-body {
-    /*
-    background-image: url('img/background2.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    */
-}
+body {}
 
 #nav {
     z-index: 10;
