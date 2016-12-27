@@ -16,12 +16,12 @@ $(document).ready(function () {
     //==========================================================================================================================================
 
     $('#typingSubheading').typeIt({
-        speed: 100,
+        speed: 150,
         breakLines: false,
         autoStart: false
     }).tiType("Software Engineer").tiPause(600).tiSettings({
         lifeLike: true,
-        speed: 150
+        speed: 200
     }).tiType(" : BESc - Class of 2018");
 
 
