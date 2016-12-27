@@ -2,14 +2,6 @@
 COLORS
 */
 
-.navy-blue {
-    background-color: #0B1A3B;
-}
-
-.violet {
-    background-color: #582A55;
-}
-
 body {
     /*
     background-image: url('img/background2.png');
@@ -21,6 +13,10 @@ body {
 
 #nav {
     z-index: 10;
+}
+
+nav {
+    background-color: #22252C;
 }
 
 .btn-header {
@@ -38,7 +34,8 @@ body {
 #about {
     z-index: 5;
     margin-top: -10px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
+    background-color: #A7D2CB;
     background-image: url('img/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
