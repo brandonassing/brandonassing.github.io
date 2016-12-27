@@ -56,17 +56,16 @@
 
 <body>
 
-    <!-- use single paged web app so I don't have to re write the navbar and all the consistent components -->
-    <!-- FIX NAV BAR SHADOW. CHANGES ON SCROLL DOWN-->
+    <!-- TODO use single paged web app so I don't have to re write the navbar and all the consistent components -->
     <div id="nav" class="anchor">
         <div class="navbar-fixed">
-            <nav class="blue-grey darken-3">
+            <nav class="navy-blue">
                 <div class="nav-wrapper container">
-                    <a class="brand-logo">Home</a>
+                    <a class="brand-logo" href="index.html">Home</a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a>Projects</a></li>
-                        <li><a>Photography</a></li>
-                        <li><a>Artwork</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li><a href="artwork.html">Artwork</a></li>
                     </ul>
                 </div>
             </nav>
@@ -78,44 +77,80 @@
             <h1 id="headerTitle">Brandon Assing</h1>
             <h3 id="typingSubheading"></h3>
             <a class="btn-header waves-effect waves-light red accent-4 btn" href="Resume_Brandon_Assing.pdf" target="_blank">Resume</a>
-            <a class="btn-header waves-effect waves-light btn disabled" href="#contact">Contact</a>
+            <!-- Modal Trigger -->
+            <a class="modal-trigger waves-effect waves-light btn disabled" href="#contact-form" data-target="contact-form">Contact</a>
         </div>
     </div>
-    <div id="in-progress" class="center-align section blue-grey lighten-4">
-        <div id="in-progress-container" class="container blue-grey lighten-1 z-depth-2">
+
+
+    <!-- Modal Structure -->
+    <div id="contact-form" class="modal">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+        </div>
+    </div>
+    <div id="about" class="section z-depth-3" style="background-image:url('img/background.png')">
+        <div class="container">
+            <h2 class="white-text">About Me</h2>
+            <h3 class="white-text">What would you like to know?</h3>
             <br/>
-            <h2 style="color:white; font-size:60px">Hi there!</h2>
-            <br/>
-            <div>
-                <img src="img/crane.png">
+            <div id="div-skills" class="section white z-depth-5 card-panel">
+                <div class="row">
+                    <div class="col s3">
+                        <img class="about-img" src="img/test.jpg">
+                    </div>
+                    <div class="col s9">
+                        <h4 class="about-heading"><b>Some skills I've picked up</b></h4>
+                        <p class="skills-text"><b>WEB TECHNOLOGIES </b>HTML5, CSS3, Javascript, Jquery, AngularJS, Angular 2 with Typescript, Node.js, Express.js, MongoDB</p>
+                        <br/>
+                        <p class="skills-text"><b>PROGRAMMING LANGUAGES </b>Java, C++, C#, Python, MySQL using SQL</p>
+                        <br/>
+                        <p class="skills-text"><b>TOOLS/MISC </b>Git, Unity, Webflow, Android Studio, UML, Wood/Metal Shop Certified</p>
+                        <br/>
+                        <p class="skills-text"><b>FAMILIAR WITH </b>various software design patterns, project development methodologies, database management systems, algorithms/data structures, and Arduino</p>
+                    </div>
+                </div>
             </div>
-            <br/><span style="color:#eceff1; font-size:40px">I'm making a few changes to my site, but it'll be up soon!</span>
-            <div style="color:white">Icons made by <a style="color:#eceff1" href="http://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a style="color:#eceff1" href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a style="color:#eceff1" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <br/>
+            <div class="row white z-depth-3 section card-panel">
+                <div class="col s4">
+                    <img class="about-img about-img-col" src="img/test.jpg">
+                    <h4 class="about-heading col-heading"><b>EDUCATION</b></h4>
+                    <div>
+                        <p>I'm currently in my 3rd year of Software Engineering at Western University with a <b>3.7 GPA</b>
+                        </p>
+                        <a href="http://www.uwo.ca" target="0" class="about-link"><b>Go Mustangs!</b></a>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <img class="about-img about-img-col" src="img/test.jpg">
+                    <h4 class="about-heading col-heading"><b>ART/PHOTOGRAPHY</b></h4>
+                    <p>Most of my artwork is in either graphite or acrylic paint. I shoot with a <b>Nikon D3300</b></p>
+                    <a href="artwork.html" class="about-link"><b>Artwork</b></a>
+                    <span><b>/</b></span>
+                    <a href="photography.html" class="about-link"><b>Photography</b></a>
+                </div>
+                <div class="col s4">
+                    <img class="about-img about-img-col" src="img/test.jpg">
+                    <h4 class="about-heading col-heading"><b>ACTIVTIES</b></h4>
+                    <p>To get some exercise and be outdoors I enjoy <b>rock climbing</b>, <b>longboarding</b>, <b>snowboarding</b>, and <b>golf</b></p>
+                </div>
+            </div>
         </div>
     </div>
     <!--
-    <div id="about" class="section card-panel grey darken-1 z-depth-3">
-        <div class="container">
-            <h2 style="color:white ">About Me</h2>
-            <h3>What would you like to know?</h3>
-            <div id="div-skillset" class="orange section" style="height:200px"></div>
-            <div class="row">
-                <div class="col s4 red" style="height:100px">
-                </div>
-                <div class="col s4 blue" style="height:100px">
-                </div>
-                <div class="col s4 green" style="height:100px">
-                </div>
-            </div>
-        </div>
-    </div>
     <div id="contact" class="center-align section teal lighten-4">
         <div id="contactForm" class="container teal lighten-1 z-depth-2">
             <h2>Contact</h2>
         </div>
     </div>
-    -->
+    
     <footer id="footer" class="page-footer blue-grey lighten-2 "></footer>
+-->
 </body>
 
 </html>

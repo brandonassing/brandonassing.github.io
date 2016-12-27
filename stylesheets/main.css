@@ -1,8 +1,22 @@
+/*
+COLORS
+*/
+
+.navy-blue {
+    background-color: #0B1A3B;
+}
+
+.violet {
+    background-color: #582A55;
+}
+
 body {
+    /*
     background-image: url('img/background2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    */
 }
 
 #nav {
@@ -15,17 +29,49 @@ body {
 }
 
 #header {
-    background-image: url(img/background.png);
     z-index: 0;
     padding-top: 150px;
     padding-bottom: 100px;
-    /* background-image: url("./img/background.png");*/
+    background-color: #B8E8DA;
 }
 
 #about {
     z-index: 5;
     margin-top: -10px;
-    padding-bottom: 1000px;
+    padding-bottom: 100px;
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about-link {
+    /*TODO change to darker red*/
+    color: red;
+}
+
+.about-heading {
+    font-size: 30px;
+}
+
+h4.about-heading {}
+
+h4.about-heading.col-heading {
+    font-size: 25px;
+}
+
+p.skills-text {
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+img.about-img {
+    width: 100%;
+}
+
+img.about-img.about-img-col {
+    width: 150px;
 }
 
 #contact {

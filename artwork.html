@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Brandon Assing</title>
+    <link rel="icon" href="img/icon.png">
 
     <!--AngularJS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
@@ -35,25 +36,33 @@
 
 <body>
 
+    <!-- TODO use single paged web app so I don't have to re write the navbar and all the consistent components -->
     <div id="nav" class="anchor">
         <div class="navbar-fixed">
-            <nav class="blue-grey darken-3">
+            <nav class="navy-blue">
                 <div class="nav-wrapper container">
-                    <a href="index.html" class="brand-logo">Home</a>
+                    <a class="brand-logo" href="index.html">Home</a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="photography.html">Photography</a></li>
-                        <li class="active"><a href="artwork.html">Artwork</a></li>
+                        <li><a href="artwork.html">Artwork</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
-
-
-
-    <footer id="footer" class="page-footer blue-grey lighten-2 "></footer>
-
+    <div id="in-progress" class="center-align section blue-grey lighten-4">
+        <div id="in-progress-container" class="container blue-grey lighten-1 z-depth-2">
+            <br/>
+            <h2 style="color:white; font-size:60px">Hi there!</h2>
+            <br/>
+            <div>
+                <img src="img/crane.png">
+            </div>
+            <br/><span style="color:#eceff1; font-size:40px">I'm making a few changes to my site, but it'll be up soon!</span>
+            <div style="color:white">Icons made by <a style="color:#eceff1" href="http://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a style="color:#eceff1" href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a style="color:#eceff1" href="htt    p://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        </div>
+    </div>
 </body>
 
 </html>
