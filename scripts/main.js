@@ -33,10 +33,9 @@ $(document).ready(function () {
     $(window).scroll(function () {
         $(".scroll-fade-in").css("opacity", $(window).scrollTop() / 700);
     });
+    $('#header').hide().fadeIn(3000);
 
-
-
-    $("#headshot").addClass("go")
+    $("#headshot")
         .delay(500)
         .queue(function () {
             $(this).removeClass("hidden");
