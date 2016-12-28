@@ -42,5 +42,21 @@ $(document).ready(function () {
             $(this).addClass("fadeInDown");
             $(this).dequeue();
         });
+    var scroll_pos = 0;
+    $("#about").css('background-color', '#80cbc4');
+    $(document).scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 210) {
+            //$("#about").css('background-color', '#4db6ac');
+            $("#about").stop().animate({
+                backgroundColor: '#4db6ac'
+            }, 300);
+        } else {
+            //$("#about").css('background-color', '#80cbc4');
+            $("#about").stop().animate({
+                backgroundColor: '#80cbc4'
+            }, 300);
+        }
+    });
 
 });
