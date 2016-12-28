@@ -17,6 +17,10 @@ nav {
     margin-right: 15px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 #header {
     z-index: 0;
     padding-top: 150px;
@@ -35,6 +39,10 @@ nav {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.scroll-fade-in {
+    opacity: 0;
 }
 
 .about-link {

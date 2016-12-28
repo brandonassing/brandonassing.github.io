@@ -19,12 +19,29 @@ $(document).ready(function () {
         speed: 150,
         breakLines: false,
         autoStart: false
-    }).tiType("Software Engineer").tiPause(600).tiSettings({
+    }).tiPause(1000).tiType("Software Engineer").tiPause(600).tiSettings({
         lifeLike: true,
         speed: 200
     }).tiType(" : BESc - Class of 2018");
 
 
     //======================================================================================================================================
+
+    $(window).scroll(function () {
+        $(".scroll-fade-out").css("opacity", 1 - $(window).scrollTop() / 350);
+    });
+    $(window).scroll(function () {
+        $(".scroll-fade-in").css("opacity", $(window).scrollTop() / 700);
+    });
+
+
+
+    $("#headshot").addClass("go")
+        .delay(500)
+        .queue(function () {
+            $(this).removeClass("hidden");
+            $(this).addClass("fadeInDown");
+            $(this).dequeue();
+        });
 
 });
