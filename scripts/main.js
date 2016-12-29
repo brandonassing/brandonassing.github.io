@@ -15,14 +15,7 @@ $(document).ready(function () {
     });
     //==========================================================================================================================================
 
-    $('#typingSubheading').typeIt({
-        speed: 150,
-        breakLines: false,
-        autoStart: false
-    }).tiPause(1000).tiType("Software Engineer").tiPause(600).tiSettings({
-        lifeLike: true,
-        speed: 200
-    }).tiType(" : BESc - Class of 2018");
+
 
 
     //======================================================================================================================================
@@ -38,20 +31,27 @@ $(document).ready(function () {
     var img = new Image();
     img.onload = function () {
         $("#header").addClass("bg");
-        //the callback function call here
-
         $('#header').hide().fadeIn(3000);
+        $("#headshot")
+            .delay(500)
+            .queue(function () {
+                $(this).removeClass("hidden");
+                $(this).addClass("fadeInDown");
+                $(this).dequeue();
+            });
+        $('#typingSubheading').typeIt({
+            speed: 150,
+            breakLines: false,
+            autoStart: false
+        }).tiPause(1000).tiType("Software Engineer").tiPause(600).tiSettings({
+            lifeLike: true,
+            speed: 200
+        }).tiType(" : BESc - Class of 2018");
     };
     img.src = 'img/header-background.jpg';
     //=========================Image Load====================
 
-    $("#headshot")
-        .delay(500)
-        .queue(function () {
-            $(this).removeClass("hidden");
-            $(this).addClass("fadeInDown");
-            $(this).dequeue();
-        });
+
     var scroll_pos = 0;
     $("#about").css('background-color', '#80cbc4');
     $(document).scroll(function () {
