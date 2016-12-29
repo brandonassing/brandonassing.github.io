@@ -25,6 +25,9 @@ nav {
     z-index: 0;
     padding-top: 150px;
     padding-bottom: 100px;
+}
+
+#header.bg {
     background-image: url(../img/header-background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;

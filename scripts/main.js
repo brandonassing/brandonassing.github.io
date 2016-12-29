@@ -33,7 +33,17 @@ $(document).ready(function () {
     $(window).scroll(function () {
         $(".scroll-fade-in").css("opacity", $(window).scrollTop() / 700);
     });
-    $('#header').hide().fadeIn(3000);
+
+    //=========================Image Load====================
+    var img = new Image();
+    img.onload = function () {
+        $("#header").addClass("bg");
+        //the callback function call here
+
+        $('#header').hide().fadeIn(3000);
+    };
+    img.src = 'img/header-background.jpg';
+    //=========================Image Load====================
 
     $("#headshot")
         .delay(500)
