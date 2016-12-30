@@ -33,11 +33,13 @@ $(document).ready(function () {
                 $(this).addClass("fadeInDown");
                 $(this).dequeue();
             });
+
+        $('.header-btn').fadeIn(3000).removeClass("hidden");
         $('#typingSubheading').typeIt({
             speed: 150,
             breakLines: false,
             autoStart: false
-        }).tiPause(1000).tiType("Software Engineer").tiPause(600).tiSettings({
+        }).tiPause(1000).tiSettings({
             lifeLike: true,
             speed: 200
         }).tiType(" : BESc - Class of 2018");
