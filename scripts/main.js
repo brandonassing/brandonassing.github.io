@@ -25,7 +25,12 @@ $(document).ready(function () {
     var img = new Image();
     img.onload = function () {
         $("#header").addClass("bg");
-        $('#header').hide().fadeIn(3000);
+        $('#header').animate({
+            opacity: 1
+        }, {
+            duration: 3000
+        });
+        //$('#header').hide().fadeIn(3000);
         $("#headshot")
             .delay(500)
             .queue(function () {
