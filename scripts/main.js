@@ -33,8 +33,6 @@ $(document).ready(function () {
                 $(this).addClass("fadeInDown");
                 $(this).dequeue();
             });
-
-        $('.header-btn').fadeIn(3000).removeClass("hidden");
         $('#typingSubheading').typeIt({
             speed: 150,
             breakLines: false,
