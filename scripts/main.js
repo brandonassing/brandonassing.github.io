@@ -25,6 +25,7 @@ $(document).ready(function () {
     var img = new Image();
     img.onload = function () {
         $("#header").addClass("bg");
+        //TODO change to background animate, not entire header
         $('#header').animate({
             opacity: 1
         }, {
@@ -39,12 +40,12 @@ $(document).ready(function () {
                 $(this).dequeue();
             });
         $('#typingSubheading').typeIt({
-            speed: 150,
+            speed: 100,
             breakLines: false,
             autoStart: false
-        }).tiPause(1000).tiType("Software Engineer").tiPause(600).tiSettings({
-            lifeLike: true,
-            speed: 200
+        }).tiPause(800).tiDelete(11).tiPause(300).tiType("Software Engineer").tiPause(500).tiSettings({
+            speed: 150
+                //TODO add break for mobile
         }).tiType(" : BESc - Class of 2018");
     };
     img.src = 'img/header-background.jpg';
