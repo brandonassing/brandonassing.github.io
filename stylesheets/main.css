@@ -29,7 +29,7 @@ nav {
 }
 
 #header.bg {
-    background-image: url(../img/header-background.jpg);
+    background-image: url(../img/header-background5.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
@@ -38,7 +38,6 @@ nav {
 
 #about {
     z-index: 5;
-    margin-top: -10px;
     padding-bottom: 60px;
     background-repeat: no-repeat;
     background-attachment: fixed;

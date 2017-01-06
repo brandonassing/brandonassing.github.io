@@ -51,7 +51,7 @@ $(document).ready(function () {
     img.src = 'img/header-background.jpg';
     //=========================Image Load====================
 
-
+    //TODO change colors
     var scroll_pos = 0;
     $("#about").css('background-color', '#80cbc4');
     $(document).scroll(function () {
@@ -65,6 +65,7 @@ $(document).ready(function () {
             //$("#about").css('background-color', '#80cbc4');
             $("#about").stop().animate({
                 backgroundColor: '#80cbc4'
+                    //TODO change this to animate background image somehow
             }, 300);
         }
     });
