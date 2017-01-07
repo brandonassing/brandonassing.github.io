@@ -2,7 +2,13 @@
 COLORS
 */
 
-body {}
+body {
+    /*TODO TODO TODO 
+    FIX HEADER BACKGROUND IMAGE TO TRANPARENT SO ABOUT SECTION HAS IMAGE AS WELL
+    */
+    /*for about background tranparency on page top*/
+    /*background-image: url("../img/header-background5.jpg");*/
+}
 
 #nav {
     z-index: 10;
@@ -29,6 +35,9 @@ nav {
 }
 
 #header.bg {
+    /*TODO TODO TODO 
+    FIX HEADER BACKGROUND IMAGE TO TRANPARENT SO ABOUT SECTION HAS IMAGE AS WELL
+    */
     background-image: url(../img/header-background5.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;

@@ -22,6 +22,7 @@ $(document).ready(function () {
     });
 
     //=========================Image Load====================
+    //TODO add image array; fade between; src from http://css3.bradshawenterprises.com/cfimg/
     var img = new Image();
     img.onload = function () {
         $("#header").addClass("bg");
@@ -53,17 +54,33 @@ $(document).ready(function () {
 
     //TODO change colors
     var scroll_pos = 0;
+
+    /*TODO TODO TODO 
+    FIX HEADER BACKGROUND IMAGE TO TRANPARENT SO ABOUT SECTION HAS IMAGE AS WELL
+    */
+    //for about background tranparency on page top
+    //$("#about").css('background-color', 'rgba(128,203,196,0)');
+
     $("#about").css('background-color', '#80cbc4');
+
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
         if (scroll_pos > 210) {
             //$("#about").css('background-color', '#4db6ac');
             $("#about").stop().animate({
+
+                //for about background tranparency on page top
+                //backgroundColor: 'rgba(128,203,196,0)'
+
                 backgroundColor: '#4db6ac'
             }, 300);
         } else {
             //$("#about").css('background-color', '#80cbc4');
             $("#about").stop().animate({
+
+                //for about background tranparency on page top
+                //backgroundColor: 'rgba(128,203,196,1)'
+
                 backgroundColor: '#80cbc4'
                     //TODO change this to animate background image somehow
             }, 300);
