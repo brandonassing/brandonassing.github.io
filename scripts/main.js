@@ -61,30 +61,30 @@ $(document).ready(function () {
     //for about background tranparency on page top
     //$("#about").css('background-color', 'rgba(128,203,196,0)');
 
-    $("#about").css('background-color', '#80cbc4');
+    $("#about").css('background-color', '#0A473F');
+    /*
+        $(document).scroll(function () {
+            scroll_pos = $(this).scrollTop();
+            if (scroll_pos > 210) {
+                //$("#about").css('background-color', '#4db6ac');
+                $("#about").stop().animate({
 
-    $(document).scroll(function () {
-        scroll_pos = $(this).scrollTop();
-        if (scroll_pos > 210) {
-            //$("#about").css('background-color', '#4db6ac');
-            $("#about").stop().animate({
+                    //for about background tranparency on page top
+                    //backgroundColor: 'rgba(128,203,196,0)'
 
-                //for about background tranparency on page top
-                //backgroundColor: 'rgba(128,203,196,0)'
+                    backgroundColor: '#4db6ac'
+                }, 300);
+            } else {
+                //$("#about").css('background-color', '#80cbc4');
+                $("#about").stop().animate({
 
-                backgroundColor: '#4db6ac'
-            }, 300);
-        } else {
-            //$("#about").css('background-color', '#80cbc4');
-            $("#about").stop().animate({
+                    //for about background tranparency on page top
+                    //backgroundColor: 'rgba(128,203,196,1)'
 
-                //for about background tranparency on page top
-                //backgroundColor: 'rgba(128,203,196,1)'
-
-                backgroundColor: '#80cbc4'
-                    //TODO change this to animate background image somehow
-            }, 300);
-        }
-    });
-
+                    backgroundColor: '#0e4d44'
+                        //TODO change this to animate background image somehow
+                }, 300);
+            }
+        });
+    */
 });
