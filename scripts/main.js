@@ -35,7 +35,6 @@ $(document).ready(function () {
         }, {
             duration: 3000
         });
-        //$('#header').hide().fadeIn(3000);
         $("#headshot")
             .delay(500)
             .queue(function () {
@@ -55,16 +54,6 @@ $(document).ready(function () {
     img.src = 'img/header-background.jpg';
     //=========================Image Load====================
 
-    //TODO change colors
-    var scroll_pos = 0;
-
-    /*TODO TODO TODO 
-    FIX HEADER BACKGROUND IMAGE TO TRANPARENT SO ABOUT SECTION HAS IMAGE AS WELL
-    */
-    //for about background tranparency on page top
-    //$("#about").css('background-color', 'rgba(128,203,196,0)');
-
-    $("#about").css('background-color', '#0A473F');
     /*
         $(document).scroll(function () {
             scroll_pos = $(this).scrollTop();
