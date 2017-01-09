@@ -27,7 +27,7 @@ $(document).ready(function () {
     //onload not working. Still see picture loading up to down during fade in
     var img = new Image();
     img.onload = function () {
-        $("#header").delay(500).addClass("bg");
+        $("#header").delay(5000).addClass("bg");
         //TODO change to background animate, not entire header
         $('#header').animate({
             opacity: 1
