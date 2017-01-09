@@ -24,15 +24,12 @@ $(document).ready(function () {
     //=========================Image Load====================
     //TODO add image array; fade between; src from http://css3.bradshawenterprises.com/cfimg/
 
-    //onload not working. Still see picture loading up to down during fade in
+    //TODO fix: Still see picture loading up to down during fade in
     var img = new Image();
     img.onload = function () {
-        $("#header").delay(5000).queue(function () {
-            $(this).addClass("bg");
-            $(this).dequeue();
-        });
+        $("#header").addClass("bg");
         //TODO change to background animate, not entire header
-        $('#header').animate({
+        $('#header').delay(5000).animate({
             opacity: 1
         }, {
             duration: 3000
