@@ -28,7 +28,7 @@ $(document).ready(function () {
     img.onload = function () {
         $("#header").addClass("bg");
         //TODO change to background animate, not entire header
-        $('#header').delay(100).animate({
+        $('#header').delay(500).animate({
             opacity: 1
         }, {
             duration: 3000
