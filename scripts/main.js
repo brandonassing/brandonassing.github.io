@@ -28,6 +28,8 @@ $(document).ready(function () {
     img.onload = function () {
         $("#header").addClass("bg");
         //TODO change to background animate, not entire header
+
+        //TODO revise: delay causes oddly timed Hello World typing
         $('#header').delay(500).animate({
             opacity: 1
         }, {
