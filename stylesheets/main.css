@@ -10,6 +10,16 @@
     padding-bottom: 150px;
 }
 
+img.about-img {
+    float: right;
+    margin-top: 35px;
+    width: 75%;
+}
+
+img.about-img-col {
+    width: 80px;
+}
+
 @media only screen and (max-width:1024px){
     #headshot{
         width: 25vw;
@@ -27,6 +37,20 @@
     #header{
         height:100vh;
         padding-top: 150px;
+    }
+    img.about-img {
+    margin-bottom: 20px; 
+    margin-top: 25px;
+    width: 100%;
+    }
+    .about-col{
+    }
+
+    img.about-img-col {
+    width: 80px;
+    display:block;
+    margin:auto;
+    margin-top: 15px;
     }
 }
 
@@ -88,16 +112,6 @@ p.skills-text {
     font-size: 20px;
     margin-top: -5px;
     margin-bottom: -5px;
-}
-
-img.about-img {
-    float: right;
-    margin-top: 35px;
-    width: 75%;
-}
-
-img.about-img-col {
-    width: 80px;
 }
 
 h1 {
