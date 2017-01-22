@@ -28,6 +28,9 @@ img.about-img-col {
         padding-top: 100px;
         height: 75vh;
     }
+    img.about-img-col {
+    margin-top: 30px;
+    }
 }
 @media only screen and (max-width:500px){
     #headshot{
@@ -47,7 +50,6 @@ img.about-img-col {
     }
 
     img.about-img-col {
-    width: 80px;
     display:block;
     margin:auto;
     margin-top: 15px;
