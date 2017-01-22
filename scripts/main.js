@@ -51,7 +51,7 @@ $(document).ready(function () {
                 //TODO add break for mobile
         }).tiType(" : BESc - Class of 2018");
     };
-    img.src = 'img/header-background.jpg';
+    img.src = 'img/Shallows.png';
     //=========================Image Load====================
 
     /*
