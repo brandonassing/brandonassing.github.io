@@ -1,4 +1,16 @@
-body {}
+#headshot{
+    width: 12vw;
+}
+@media only screen and (max-width:1024px){
+    #headshot{
+        width: 20vw;
+    }
+}
+@media only screen and (max-width:500px){
+    #headshot{
+        width:30vw;
+    }
+}
 
 #nav {
     z-index: 10;
@@ -7,6 +19,7 @@ body {}
 nav {
     background-color: #081825;
 }
+
 
 .btn-header {
     margin-left: 15px;
@@ -51,6 +64,7 @@ nav {
 
 .about-heading {
     font-size: 30px;
+    word-wrap: break-word;
 }
 
 h4.about-heading {}
