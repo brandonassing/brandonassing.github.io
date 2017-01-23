@@ -21,6 +21,9 @@ img.about-img-col {
 }
 
 @media only screen and (max-width:1024px){
+    /*
+    TODO: reduce top padding so it shows nicely with the chrome bar on mobile
+    */
     #headshot{
         width: 25vw;
     }
@@ -64,6 +67,10 @@ nav {
     background-color: #081825;
 }
 
+#typingSubheading{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .btn-header {
     margin-left: 15px;
