@@ -44,7 +44,7 @@ img.about-img-col {
     display: block;
     }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     #headshot{
         width:40vw;
     }
