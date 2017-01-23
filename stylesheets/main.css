@@ -35,6 +35,15 @@ img.about-img-col {
     margin-top: 30px;
     }
 }
+@media only screen and (max-width:992px){
+    img.about-img {
+    margin:auto;
+    margin-bottom: 20px; 
+    margin-top: 25px;
+    width: 100%;
+    display: block;
+    }
+}
 @media only screen and (max-width:500px){
     #headshot{
         width:40vw;
