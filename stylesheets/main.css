@@ -1,3 +1,6 @@
+body{
+    scroll-behavior: smooth;
+}
 #headshot{
     width: 12vw;
 }
