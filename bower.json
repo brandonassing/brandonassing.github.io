@@ -1,0 +1,17 @@
+{
+  "name": "personal site",
+  "homepage": "https://github.com/brandonassing/brandonassing.github.io",
+  "authors": [
+    "Brandon Assing"
+  ],
+  "description": "My personal portoflio website",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
