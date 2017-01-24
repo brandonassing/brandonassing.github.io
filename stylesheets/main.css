@@ -93,6 +93,8 @@ nav {
     background-image: url(../img/PixelPush.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
