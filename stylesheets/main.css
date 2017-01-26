@@ -144,3 +144,10 @@ h3 {
 #in-progress-container {
     padding-bottom: 50px;
 }
+
+h2.works-heading{
+
+}
+h3.works-heading{
+    color: grey;
+}
