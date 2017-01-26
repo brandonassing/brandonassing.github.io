@@ -14,6 +14,19 @@ $(document).ready(function () {
         });
     });
 
+    //=========================Header mobile resize====================
+    if($(window).width() <= 600){
+        var screenHeight = $(window).height();
+        $('#header').css('height', screenHeight + 'px');
+    }
+    else if ($(window).width() <= 1025){
+        var screenHeight = $(window).height() * 0.75;
+        $('#header').css('height', screenHeight + 'px');
+    
+    }
+    //=========================Header mobile resize====================
+
+
     $(window).scroll(function () {
         $(".scroll-fade-out").css("opacity", 1 - $(window).scrollTop() / 350);
     });
