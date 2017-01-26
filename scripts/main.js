@@ -34,61 +34,33 @@ $(document).ready(function() {
 
     //=========================Image Load====================
     //TODO add image array; fade between; src from http://css3.bradshawenterprises.com/cfimg/
-    /*
-        $(window).on('load', function() {
-            $("#header").addClass("bg");
+    var bgimg = new Image();
+    bgimg.src = './img/PixelPush.png';
+    $(bgimg).on("load", function() {
+        $("#header").delay(300).addClass("bg", function() {
             //TODO change to background animate, not entire header
-
-            //TODO revise: delay causes oddly timed Hello World typing
-            $('#header').delay(500).animate({
+            $('#header').animate({
                 opacity: 1
             }, {
                 duration: 3000
             });
             $("#headshot")
-                .delay(500)
+                .delay(2000)
                 .queue(function() {
                     $(this).removeClass("hidden");
                     $(this).addClass("fadeInDown");
                     $(this).dequeue();
                 });
             $('#typingSubheading').typeIt({
-                speed: 100,
+                speed: 120,
                 breakLines: false,
                 autoStart: false
-            }).tiPause(800).tiDelete(11).tiPause(300).tiType("Software Engineer").tiPause(500).tiSettings({
+            }).tiPause(1700).tiDelete(11).tiPause(300).tiType("Software Engineer").tiPause(500).tiSettings({
                 speed: 150
                     //TODO add break for mobile
             }).tiType(" : BESc - Class of 2018");
         });
-    */
-    var bgimg = new Image();
-    bgimg.src = './img/PixelPush.png';
-    $(bgimg).on("load", function() {
-        $("#header").addClass("bg");
-        //TODO change to background animate, not entire header
 
-        //TODO revise: delay causes oddly timed Hello World typing
-        $('#header').delay(500).animate({
-            opacity: 1
-        }, {
-            duration: 3000
-        });
-        $("#headshot")
-            .delay(500)
-            .queue(function() {
-                $(this).removeClass("hidden");
-                $(this).addClass("fadeInDown");
-                $(this).dequeue();
-            });
-        $('#typingSubheading').typeIt({
-            speed: 100,
-            breakLines: false,
-            autoStart: false
-        }).tiPause(800).tiDelete(11).tiPause(300).tiType("Software Engineer").tiPause(500).tiSettings({
-            speed: 150
-                //TODO add break for mobile
-        }).tiType(" : BESc - Class of 2018");
     });
 
     //=========================Image Load====================
