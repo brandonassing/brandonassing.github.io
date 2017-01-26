@@ -35,13 +35,12 @@ $(document).ready(function() {
     //=========================Image Load====================
     //TODO add image array; fade between; src from http://css3.bradshawenterprises.com/cfimg/
 
-    var img = new Image();
-    img.onload = function() {
+    $(window).on('load', function() {
         $("#header").addClass("bg");
         //TODO change to background animate, not entire header
 
         //TODO revise: delay causes oddly timed Hello World typing
-        $('#header').delay(500).animate({
+        $('#header').animate({
             opacity: 1
         }, {
             duration: 3000
@@ -61,8 +60,8 @@ $(document).ready(function() {
             speed: 150
                 //TODO add break for mobile
         }).tiType(" : BESc - Class of 2018");
-    };
-    img.src = 'img/Shallows.png';
+    });
+
     //=========================Image Load====================
 
     /*
