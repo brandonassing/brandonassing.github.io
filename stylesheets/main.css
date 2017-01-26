@@ -154,3 +154,7 @@ h3.works-heading{
 div.works-header{
     padding-bottom: 30px;
 }
+div.works-body{
+    min-height: 100vh;
+    background-color: #8fb6ae;
+}
