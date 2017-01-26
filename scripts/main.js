@@ -1,6 +1,6 @@
-$(document).ready(function () {
-    $(function () {
-        $('a[href*="#"]:not([href="#"])').click(function () {
+$(document).ready(function() {
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -15,22 +15,21 @@ $(document).ready(function () {
     });
 
     //=========================Header mobile resize====================
-    if($(window).width() <= 600){
+    if ($(window).width() <= 600) {
         var screenHeight = $(window).height();
         $('#header').css('height', screenHeight + 'px');
-    }
-    else if ($(window).width() <= 1025){
+    } else if ($(window).width() <= 1025) {
         var screenHeight = $(window).height() * 0.75;
         $('#header').css('height', screenHeight + 'px');
-    
+
     }
     //=========================Header mobile resize====================
 
 
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         $(".scroll-fade-out").css("opacity", 1 - $(window).scrollTop() / 350);
     });
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         $(".scroll-fade-in").css("opacity", $(window).scrollTop() / 700);
     });
 
@@ -38,7 +37,7 @@ $(document).ready(function () {
     //TODO add image array; fade between; src from http://css3.bradshawenterprises.com/cfimg/
 
     var img = new Image();
-    img.onload = function () {
+    img.onload = function() {
         $("#header").addClass("bg");
         //TODO change to background animate, not entire header
 
@@ -50,7 +49,7 @@ $(document).ready(function () {
         });
         $("#headshot")
             .delay(500)
-            .queue(function () {
+            .queue(function() {
                 $(this).removeClass("hidden");
                 $(this).addClass("fadeInDown");
                 $(this).dequeue();
