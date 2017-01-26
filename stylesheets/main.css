@@ -85,9 +85,6 @@ nav {
 .hidden {
     visibility: hidden;
 }
-/*
-gitgutter
-*/
 
 #header.bg {
     background-image: url(../img/PixelPush.png);

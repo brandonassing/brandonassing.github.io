@@ -1,0 +1,9 @@
+img.photo{
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+div.photo-div{
+}
