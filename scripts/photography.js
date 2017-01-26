@@ -1,20 +1,8 @@
 $(document).ready(function() {
 
-    //=================================================================
-    /*
-    var dir = "../img/Photos/";
-    var fileextension = ".JPG";
-    $.ajax({
-        //This will retrieve the contents of the folder if the folder is configured as 'browsable'
-        url: dir,
-        success: function(data) {
-            //List all .png file names in the page
-            $(data).find("a:contains(" + fileextension + ")").each(function() {
-                var filename = this.href.replace(window.location.host, "").replace("http://", "");
-                $("body").append("<img src='" + dir + filename + "'>");
-            });
-        }
-    });
-    */
-    //=================================================================
+    var imageSRCs;
+
+    for (var i = 29; i >= 1; i--) {
+        $("#image-list").append('<li><div class = "photo-div col l3"><img class = "photo" src="./img/Photos/' + String(i) + '.JPG"></div></li>');
+    }
 });
