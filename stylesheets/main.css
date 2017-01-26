@@ -23,9 +23,6 @@ img.about-img-col {
 }
 
 @media only screen and (max-width:1024px){
-    /*
-    TODO: reduce top padding so it shows nicely with the chrome bar on mobile
-    */
     #headshot{
         width: 25vw;
     }
@@ -51,7 +48,6 @@ img.about-img-col {
     }
 
     #header{
-        padding-top: 150px;
     }
     img.about-img {
     margin-bottom: 20px; 
