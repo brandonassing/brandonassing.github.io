@@ -151,3 +151,6 @@ h2.works-heading{
 h3.works-heading{
     color: grey;
 }
+div.works-header{
+    padding-bottom: 30px;
+}
