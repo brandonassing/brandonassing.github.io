@@ -25,7 +25,6 @@ $(document).ready(function() {
     }
     //=========================Header mobile resize====================
 
-
     $(window).scroll(function() {
         $(".scroll-fade-out").css("opacity", 1 - $(window).scrollTop() / 350);
     });
