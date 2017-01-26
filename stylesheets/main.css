@@ -31,6 +31,7 @@ img.about-img-col {
     }
     #header{
         padding-top: 100px;
+        height: 75vh;
     }
     img.about-img-col {
     margin-top: 30px;
@@ -51,6 +52,8 @@ img.about-img-col {
     }
 
     #header{
+        height:100vh;
+        padding-top: 150px;
     }
     img.about-img {
     margin-bottom: 20px; 
