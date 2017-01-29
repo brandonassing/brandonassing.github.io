@@ -18,7 +18,6 @@ $(document).ready(function() {
         $("#image-list").append('<li><div class = "photo-div col l3 m4 s6"><img class = "materialboxed photo hidden" src="' + imageSRCs[i] + '"></div></li>');
 
         //////KINDA WORKS, STILL LAGS/////////////
-
         $("img[src='" + imageSRCs[i] + "']").on("load", function() {
             $(this).removeClass("hidden");
         });

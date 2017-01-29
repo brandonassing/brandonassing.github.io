@@ -8,8 +8,8 @@ body{
 #header {
     z-index: 0;
     opacity: 0;
-    padding-top: 200px;
-    padding-bottom: 150px;
+    padding-top: 20vh;
+    padding-bottom: 15.6vh;
 }
 
 img.about-img {
@@ -140,9 +140,6 @@ h2 {
 h3 {
     margin-top: -10px;
     font-size: 25px;
-}
-#in-progress-container {
-    padding-bottom: 50px;
 }
 
 h2.works-heading{

@@ -18,10 +18,12 @@ $(document).ready(function() {
     if ($(window).width() <= 600) {
         var screenHeight = $(window).height();
         $('#header').css('height', screenHeight + 'px');
-    } else if ($(window).width() <= 1025) {
+    } else if ($(window).width() <= 1024) {
         var screenHeight = $(window).height() * 0.75;
         $('#header').css('height', screenHeight + 'px');
-
+    } else {
+        var screenHeight = $(window).height() * 0.78;
+        $('#header').css('height', screenHeight + 'px');
     }
     //=========================Header mobile resize====================
 
