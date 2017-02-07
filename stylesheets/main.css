@@ -92,6 +92,7 @@ nav {
 }
 
 #about {
+    min-height: 100vh;
     z-index: 5;
     padding-bottom: 60px;
     background-repeat: no-repeat;
