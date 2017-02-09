@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    /*
     function appendImage(i) {
         return function(num) {
             window.alert(String(i));
@@ -24,14 +25,14 @@ $(document).ready(function() {
 
 
         /////////////////////////////////////////
-        /*
+        
         var imgSRC = new Image();
         imgSRC.src = imageSRCs[i];
         $(imgSRC).on("load", function() {
             //window.alert($(this).attr("src"));
             $(this).removeClass("hidden");
         });
-        */
+        
         /////////////////////////////////////////
     }
 
@@ -52,4 +53,5 @@ $(document).ready(function() {
         if (this.complete) $(this).trigger("load");
     });
     $('.materialboxed').materialbox();
+    */
 });
