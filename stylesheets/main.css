@@ -1,0 +1,28 @@
+body{
+	background-color: #F1F1F1;
+}
+#header{
+	height: 46vh;
+	background-image: url('../img/PixelPush.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	position: relative;
+}
+#headshot{
+	width: 10vw;
+}
+nav{
+	position: absolute; 
+	bottom: 0;
+}
+.header-text{
+	color: white;
+}
+h1.header-text{
+	font-size: 35px;
+}
+p.header-text{
+	font-size: 20px;
+}
