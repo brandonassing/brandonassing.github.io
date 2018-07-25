@@ -2,7 +2,7 @@ body{
 	background-color: #F1F1F1;
 }
 #header{
-	height: 46vh;
+	min-height: 46vh;
 	background-image: url('../img/PixelPush.png');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -13,8 +13,13 @@ body{
 #headshot{
 	width: 10vw;
 }
+.container {
+	display:flex;
+}
+
+
 nav{
-	position: absolute; 
+	position: absolute;
 	bottom: 0;
 }
 .header-text{
