@@ -13,6 +13,10 @@ body{
 	position: relative;
 }
 
+#header-content {
+	height: -webkit-calc(100% - 40px);
+}
+
 #headshot{
 	width: 10vw;
 }
@@ -21,21 +25,21 @@ body{
 	display:flex;
 }
 
-nav{
-	position: absolute;
-	bottom: 0;
+#tabs-container {
+	height: 40px;
 }
+
 .header-text{
 	color: white;
 }
 h1.header-text{
-	font-size: 35px;
-}
-p.header-text{
 	font-size: 20px;
 }
+p.header-text{
+	font-size: 15px;
+}
 
-#content {
+.content {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	display: flex;
