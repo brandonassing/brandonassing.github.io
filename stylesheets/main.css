@@ -46,18 +46,35 @@ p.header-text{
 .content-card {
 	margin: 10px;
 	flex-grow: 1;
+	height: 235px;
 }
 
 .content-card.col {
 	padding: 0;
 }
 
-#web-content-card {
+#social-content-card > .content-card-content {
+	height: 100%;
+}
+
+#web-content-card > .content-card-header {
+	background-color: #00baa1;
+}
+
+#social-content-card {
 
 }
 
-#social-content-card, #programming-content-card, #tools-content-card, #familiar-content-card {
+#programming-content-card > .content-card-header {
+	background-color: #34bc6e;
+}
 
+#tools-content-card > .content-card-header {
+	background-color: #34bc6e;
+}
+
+#familiar-content-card > .content-card-header {
+	background-color: #00b6cb;
 }
 
 .content-card-header {
