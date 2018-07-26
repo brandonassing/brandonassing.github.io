@@ -2,6 +2,7 @@ body{
 	background-color: #F1F1F1;
 	min-height: 100vh;
 }
+
 #header{
 	height: 46vh;
 	background-image: url('../img/PixelPush.png');
@@ -35,22 +36,45 @@ p.header-text{
 }
 
 #content {
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
+	flex-basis: 0;
 }
 
 .content-card {
-	flex-grow: 1;
 	margin: 10px;
+	flex-grow: 1;
+}
+
+.content-card.col {
+	padding: 0;
+}
+
+#web-content-card {
+
+}
+
+#social-content-card, #programming-content-card, #tools-content-card, #familiar-content-card {
+
 }
 
 .content-card-header {
-	padding: 5px;
+	padding: 15px;
 }
 
 h3.content-card-header-text {
 	margin: 0;
 	color: white;
-	font-size: 30px;
+	font-size: 15px;
+}
+
+#footer {
+	background-color: #1d3458;
+  width: 100%;
+  color: white;
+  text-align: center;
+	font-size: 9px;
+	padding: 10px;
 }
