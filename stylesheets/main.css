@@ -28,6 +28,10 @@ body{
 #tabs-container {
 	height: 40px;
 }
+/*
+#tabs-container > ul {
+	height: 100%;
+}*/
 
 .header-text{
 	color: white;
