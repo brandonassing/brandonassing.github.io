@@ -12,7 +12,7 @@ body{
 	position: relative;
 }
 
-#header-content {
+#header-content-container {
 	min-height: -webkit-calc(66vh - 50px);
 }
 
