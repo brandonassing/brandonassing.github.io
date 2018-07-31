@@ -3,6 +3,14 @@ body{
 	min-height: 100vh;
 }
 
+.raleway-font {
+	font-family: 'Raleway', sans-serif;
+}
+
+.open-sans-font {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #header{
 	min-height: 66vh;
 	background-image: url('../img/PixelPush.png');
@@ -55,11 +63,17 @@ h1.header-text{
 	font-size: 20px;
 	margin: 0;
 }
-blockquote.header-text{
+
+blockquote.header-text {
 	font-size: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-left: 5px solid #8ee9d4;
+	color: #d1f0f7;
+}
+
+blockquote.header-text > b {
+	color: white;
 }
 
 .content {
