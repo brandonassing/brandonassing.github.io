@@ -130,16 +130,16 @@ h3.content-card-header-text {
 	font-size: 20px;
 }
 
-div.web-content-item.col {
+div.content-item.col {
 	text-align: center;
 	margin-bottom: 15px;
 }
 
-svg.web-icon {
+svg.content-icon {
 	width: 75%;
 }
 
-.web-content-item > p {
+.content-item > p {
 	margin: 0;
 }
 
