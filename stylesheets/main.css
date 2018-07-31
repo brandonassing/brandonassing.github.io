@@ -4,7 +4,7 @@ body{
 }
 
 #header{
-	height: 66vh;
+	min-height: 66vh;
 	background-image: url('../img/PixelPush.png');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -13,9 +13,7 @@ body{
 }
 
 #header-content {
-	height: -webkit-calc(100% - 50px);
-	/*display: flex;
-	align-items: center;*/
+	min-height: -webkit-calc(66vh - 50px);
 }
 
 #header-content.row {
@@ -35,10 +33,6 @@ body{
 }
 
 .tabs .tab {
-	height: 100%;
-}
-
-#tabs-swipe {
 	height: 100%;
 }
 
