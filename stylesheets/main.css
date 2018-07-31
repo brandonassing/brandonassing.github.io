@@ -19,9 +19,8 @@ body{
 #header-content.row {
 	margin-bottom: 0;
 	padding: 30px;
-}
-
-#header-headshot {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #headshot{
@@ -40,15 +39,24 @@ body{
 	height: 100%;
 }
 
+#header-info {
+	padding: 20px;
+	margin-left: 0;
+}
+
 .header-text{
 	color: white;
 }
+
 h1.header-text{
 	font-size: 20px;
-	margin-top: 20px;
+	margin: 0;
 }
-p.header-text{
+blockquote.header-text{
 	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-left: 5px solid #8ee9d4;
 }
 
 .content {
