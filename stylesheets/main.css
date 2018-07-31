@@ -42,6 +42,9 @@ body{
 #header-info {
 	padding: 20px;
 	margin-left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .header-text{
