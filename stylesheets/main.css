@@ -143,6 +143,10 @@ svg.content-icon {
 	margin: 0;
 }
 
+.project-card.col {
+	padding: 0;
+}
+
 #footer {
 	background-color: #1d3458;
   width: 100%;
