@@ -98,8 +98,8 @@ blockquote.header-text > b {
 	background-color: #00baa1;
 }
 
-#social-content-card {
-
+#social-content-card > div.collection {
+	margin: 0;
 }
 
 #programming-content-card > .content-card-header {
