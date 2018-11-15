@@ -102,6 +102,10 @@ blockquote.header-text > b {
 	margin: 0;
 }
 
+/* .collection-item {
+	width: 30%;
+} */
+
 #programming-content-card > .content-card-header {
 	background-color: #34bc6e;
 }
@@ -132,7 +136,7 @@ h3.content-card-header-text {
 
 div.content-item.col {
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 svg.content-icon {
