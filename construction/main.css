@@ -1,0 +1,19 @@
+
+body {
+    height: 100vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(1,19,28);
+    background: linear-gradient(0deg, rgba(1,19,28,1) 0%, rgba(2,48,71,1) 100%);
+
+    color: white;
+
+    font-family: 'Raleway';
+}
+
+a { 
+    color:white;
+    text-decoration: underline;
+}
