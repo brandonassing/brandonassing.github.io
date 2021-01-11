@@ -3,10 +3,9 @@ html, body {
     height: 100%; 
     overflow: hidden;
 
-    background: #C33764;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-              
+    background: rgb(35,7,77);
+    background: linear-gradient(180deg, rgba(35,7,77,1) 0%, rgba(62,19,73,1) 25%, rgba(94,34,68,1) 50%, rgba(123,47,64,1) 68%, rgba(204,83,51,1) 100%);
+
     color: white;
 
     font-family: 'Open sans';
