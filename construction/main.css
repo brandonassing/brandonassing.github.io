@@ -4,11 +4,14 @@ html, body {
     overflow: hidden;
 
     background: rgb(0,100,102);
-    background: linear-gradient(180deg, rgba(0,100,102,1) 0%, rgba(77,25,77,1) 100%);
-
-    color: white;
+    /* background: linear-gradient(180deg, rgba(0,100,102,1) 0%, rgba(77,25,77,1) 100%); */
+    background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     font-family: 'Open sans';
+}
+
+#main-div {
+    color: white;
 }
 
 #container {
@@ -33,5 +36,5 @@ a {
     bottom: 0;
     width: 100%;
     text-align: center;
-  
+    color: white
 }
